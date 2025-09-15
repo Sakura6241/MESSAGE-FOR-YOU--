@@ -1,0 +1,572 @@
+body {
+  font-style: Arial;
+  background: black;
+}
+
+.animation-box {
+  width: 75%;
+  height: 45rem;
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 50rem;
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: white;
+}
+
+.second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 6s;
+  animation-duration: 9s;
+  color: #ccc;
+}
+
+.third-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: fadeInOut;
+  animation-delay: 15s;
+  animation-duration: 10s;
+  color: #a3ddf0;
+}
+
+.fourth-text {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 23s;
+  animation-duration: 12s;
+}
+
+.fifth-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 31s;
+  animation-duration: 12s;
+}
+
+.six-text {
+   font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 39s;
+  animation-duration: 10s;
+  color: white;
+}
+
+.seven-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 47s;
+  animation-duration: 12s;
+  color: #ccc;
+}
+
+.eight-text {
+  font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 55s;
+  animation-duration: 12s;
+  color: #a3ddf0;
+}
+
+.nine-text {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 63s;
+  animation-duration: 10s;
+}
+
+.ten-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 71s;
+  animation-duration: 12s;
+}
+
+.eleven-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 79s;
+  animation-duration: 10s;
+  color: white;
+}
+
+.twelve-text {
+  font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 87s;
+  animation-duration: 12s;
+  color: #a3ddf0;
+}
+
+.Thirteen-text {
+ font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 95s;
+  animation-duration: 10s;
+  color: #a3ddf0;
+}
+
+.fourteen-text {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 103s;
+  animation-duration: 12s;
+}
+
+.fifthteen-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 111s;
+  animation-duration: 12s;
+}
+
+.six-teen-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 119s;
+  animation-duration: 10s;
+  color: white;
+}
+
+.seven-teen-text {
+  font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 127s;
+  animation-duration: 12s;
+  color: #a3ddf0;
+}
+
+.eight-teen-text {
+   font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 135s;
+  animation-duration: 10s;
+  color: #a3ddf0;
+}
+
+.nine-teen-text {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 143s;
+  animation-duration: 10s;
+}
+
+.twenty-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 151s;
+  animation-duration: 12s;
+}
+
+.twenty-one-text {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 159s;
+  animation-duration: 10s;
+}
+
+.twenty-two-text {
+font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 167s;
+  animation-duration: 12s;
+  color: white;
+}
+
+.twenty-three-text {
+  font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 175s;
+  animation-duration: 12s;
+  color: #a3ddf0;
+}
+
+.twenty-four-text {
+ font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 183s;
+  animation-duration: 12s;
+}
+
+
+.twenty-five-text {
+ font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 191s;
+  animation-duration: 12s;
+}
+
+.twenty-six-text {
+font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 199s;
+  animation-duration: 10s;
+}
+
+.twenty-seven-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 207s;
+  animation-duration: 12s;
+  color: white
+}
+
+.twenty-eight-text {
+  font-size: 3rem;
+  position: absolute;
+  right: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 215s;
+  animation-duration: 12s;
+  color: #a3ddf0
+}
+
+
+.thirty-one-text {
+font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 223s;
+  animation-duration: 12s;
+}
+
+
+.thirty-one-text-one {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 231s;
+  animation-duration: 12s;
+}
+
+
+.thirty-one-text-three {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 239s;
+  animation-duration: 12s;
+
+}
+
+.thirty-one-text-three-four {
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 247s;
+  animation-duration: 12s;
+}
+
+.thirty-one-text-three-five {
+    font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 255s;
+  animation-duration: 12s;
+}
+
+
+.thirty-two-text {
+font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 263s;
+  animation-duration: 12s;
+  color: white
+}
+
+
+.thirty-four-text {
+ font-size: 3rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 271s;
+  animation-duration: 12s;
+}
+
+
+.thirty-five-text {
+ font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 279s;
+  animation-duration: 12s;
+}
+
+.thirty-six-text {
+font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 287s;
+  animation-duration: 12s;
+}
+
+
+
+.THE-END {
+  font-size: 6rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 295s;
+  animation-duration: 50s;
+}
+
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 40%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 15%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 35%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 35%;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  60% {
+    top: 40%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+
+}
